@@ -10,7 +10,7 @@ const Header = () => {
     <HeaderContainer>
       <MenuContainer>
         <Menu className={`${router.pathname == "/" ? "activeMenu" : ""}`}>
-          <Link href="/">소환사 검색</Link>
+          <Link href="/">홈</Link>
         </Menu>
         <Menu
           className={`${router.pathname == "/champion" ? "activeMenu" : ""}`}
